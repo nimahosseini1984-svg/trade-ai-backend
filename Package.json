@@ -1,0 +1,18 @@
+{
+  "name": "trade-ai-backend",
+  "version": "0.1.0",
+  "description": "Trade AI - Lightweight backend for TSETMC live data (develop mode)",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
